@@ -123,6 +123,10 @@ a {
      content: '';
 }
 
+#page-header:not(.not-top-img):before {
+     background-color: transparent !important;
+}
+
 /*toc_number自定义*/
 
 #aside-content #card-toc .toc-content ol, #aside-content #card-toc .toc-content li {
